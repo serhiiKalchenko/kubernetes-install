@@ -9,11 +9,13 @@ Copy files to server
  - `scp -i <path/to/ssh_key> -r <dir_with_installation_scripts> ubuntu@<host_ip>:~`
  - `ssh ubuntu@<host_ip> -i <path/to/ssh_key>`
 
-- Set hostname
-  - `sudo hostnamectl set-hostname kube-control`
-- Make it executable
-  - `chmod u+x install-docker-kube.sh config-cgroups-driver.sh install-kubeadm-kubelet-kubectl.sh make-control-node.sh network-setup.sh`
+Set hostname
+ - `sudo hostnamectl set-hostname kube-control`
 
+Make it executable
+ - `chmod u+x install-docker-kube.sh config-cgroups-driver.sh install-kubeadm-kubelet-kubectl.sh make-control-node.sh network-setup.sh`
+
+Run the scripts:
 1. Control node
 - `install-docker-kube.sh`
 - `config-cgroups-driver.sh`
