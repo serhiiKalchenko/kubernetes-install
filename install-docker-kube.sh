@@ -21,11 +21,11 @@ sudo apt-get remove docker docker-engine docker.io containerd runc
 # Install Docker using the repository
 sudo apt-get update
 sudo apt-get install -y\
-  apt-transport-https \
-  ca-certificates \
-  curl \
-  gnupg \
-  lsb-release
+     apt-transport-https \
+     ca-certificates \
+     curl \
+     gnupg \
+     lsb-release
 
 
 # Add Docker’s official GPG key:
