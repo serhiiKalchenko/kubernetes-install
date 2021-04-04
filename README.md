@@ -15,7 +15,7 @@ Set hostname
 Make it executable
  - `chmod u+x install-docker-kube.sh config-cgroups-driver.sh install-kubeadm-kubelet-kubectl.sh make-control-node.sh network-setup.sh`
 
-Run the scripts:
+## Run the scripts in such order:
 1. Control node
 - `install-docker-kube.sh`
 - `config-cgroups-driver.sh`
