@@ -24,6 +24,6 @@ Instance type: t2.medium (min:2 vCPU/2 RAM)
 - `config-cgroups-driver.sh`
 - `install-kubeadm-kubelet-kubectl.sh`
 3. Check the firewall settings!
-- port 6443 for your worker host (subnet) should be available!
+- port 6443 for your Worker host (subnet) should be available!
 4. Join Worker node to Control node with 'kubeadm join' command!
 - don't forget `sudo` + `kubeadm join` (see from the console output at Control node)
