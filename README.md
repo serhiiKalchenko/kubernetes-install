@@ -1,5 +1,6 @@
 # kubernetes-install
 Install Kubernetes cluster (manually) with 'kubeadm' on AWS EC2 instances.
+
 Prerequisites:
  - Image: `Ubuntu 20.04`
  - Instance type: `t2.medium` (min:2 vCPU/2 RAM)
