@@ -14,16 +14,16 @@ Instance type: t2.medium (min:2 vCPU/2 RAM)
   - `chmod u+x install-docker-kube.sh config-cgroups-driver.sh install-kubeadm-kubelet-kubectl.sh make-control-node.sh network-setup.sh`
 
 1. Control node
-- install-docker-kube.sh
-- config-cgroups-driver.sh
-- install-kubeadm-kubelet-kubectl.sh
-- make-control-node.sh
-- network-setup.sh
+- `install-docker-kube.sh`
+- `config-cgroups-driver.sh`
+- `install-kubeadm-kubelet-kubectl.sh`
+- `make-control-node.sh`
+- `network-setup.sh`
 2. Worker node 
-- install-docker-kube.sh
-- config-cgroups-driver.sh
-- install-kubeadm-kubelet-kubectl.sh
+- `install-docker-kube.sh`
+- `config-cgroups-driver.sh`
+- `install-kubeadm-kubelet-kubectl.sh`
 3. Check the firewall settings!
 - port 6443 for your worker host (subnet) should be available!
 4. Join Worker node to Control node with 'kubeadm join' command!
-- don't forget 'sudo' + kubeadm join (see from the console output at control node)
+- don't forget `sudo` + `kubeadm join` (see from the console output at Control node)
